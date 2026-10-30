@@ -1,0 +1,30 @@
+{
+  "name": "dsh-skin-snowprotocol",
+  "version": "0.1.0",
+  "description": "霜雪协议 —— 给 DSH Web GUI 加一段冷启动过场：开机先播霜雪，播完进入工作界面",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "skin",
+    "intro",
+    "deepseek-harness"
+  ],
+  "license": "MIT"
+}
