@@ -5,7 +5,7 @@
 ## 装
 
 ```bash
-dsh plugin --profile <你的profile> add github:6jv6j5n5g-ui/dsh-skin-snowprotocol
+dsh plugin --profile <你的profile> add github:6jv6j5nn5g-ui/dsh-skin-snowprotocol
 ```
 
 装完重启一次 DSH（它是启动时注入的，不走 HMR）。
